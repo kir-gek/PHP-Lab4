@@ -32,7 +32,7 @@
                 for($i=0; $i<count($strings); $i++ ) // цикл для всех строк
                     $datas .= getTR( $strings[$i] ); // добавляем код строки в итоговый
                 if( $datas ) // если код строк определен
-                    echo '<table class="tab">'.$datas.'</table>'; // выводим таблицу
+                    echo '<table>'.$datas.'</table>'; // выводим таблицу
                                    
                 else 
                     echo '<p>В таблице нет строк </p>'; // выводим предупреждение
